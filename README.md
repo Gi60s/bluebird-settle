@@ -36,3 +36,23 @@ Resolved with value: Yes
 Rejected with reason: Error: Foo
 */
 ```
+
+## Side Note
+
+You only need to require the `bluebird-settle` library once. You can require it over and over if you want, but you only have to require it once. For example:
+
+**index.js**
+
+```js
+require('bluebird-settle');
+var foo = require('./foo');
+...
+```
+
+**foo.js**
+
+```js
+var Promise = require('bluebird');
+console.log(typeof Promise.settle === 'function');      // true
+...
+```
