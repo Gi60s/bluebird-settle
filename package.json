@@ -1,0 +1,33 @@
+{
+  "name": "bluebird-settle",
+  "version": "1.0.0",
+  "description": "Add the settle method to the bluebird 3.0 library.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha ./tests/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gi60s/bluebird-settle.git"
+  },
+  "keywords": [
+    "bluebird",
+    "promise",
+    "settle"
+  ],
+  "author": "James Speirs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gi60s/bluebird-settle/issues"
+  },
+  "homepage": "https://github.com/Gi60s/bluebird-settle#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "bluebird": "^3.2.1",
+    "chai": "^3.5.0"
+  }
+}
