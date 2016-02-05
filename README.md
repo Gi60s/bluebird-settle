@@ -2,7 +2,9 @@
 
 Add the settle method to the bluebird 3.x library.
 
-**Important!** You're project must already have bluebird installed via npm. This module will not include bluebird for you, but it will add the settle method to any version of bluebird that you are using.
+## Important!
+
+You're project must already have bluebird installed via npm. This module will not include bluebird for you, but it will add the settle method to any version of bluebird that you are using.
   
 ## Usage
 
