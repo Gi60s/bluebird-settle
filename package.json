@@ -1,7 +1,7 @@
 {
   "name": "bluebird-settle",
   "version": "1.0.2",
-  "description": "Add the settle method to the bluebird 3.x library.",
+  "description": "Add the settle function to the bluebird 3.x library.",
   "main": "index.js",
   "directories": {
     "test": "tests"

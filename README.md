@@ -1,6 +1,6 @@
 # bluebird-settle
 
-Add the settle method to the bluebird 3.x library.
+Add the settle function to the bluebird 3.x library.
 
 ## Important!
 
